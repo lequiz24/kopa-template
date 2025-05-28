@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Box, Container, Typography, TextField, Button, Stepper, Step, StepLabel, 
-  Paper, Alert, Card, CardContent, Grid, MenuItem, Avatar, Divider, Chip,
+  Paper, Alert, Card, Grid, MenuItem, Avatar,
   useTheme, useMediaQuery
 } from '@mui/material';
 import { 

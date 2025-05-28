@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Box, Container, Typography, TextField, Button, Paper, Alert,
-  Card, CardContent, Grid, Avatar, Divider, Chip, Radio,
+  Card, Grid, Avatar, Divider, Chip, Radio,
   RadioGroup, FormControlLabel, FormControl, FormLabel,
   Dialog, DialogTitle, DialogContent, DialogActions, IconButton,
   InputAdornment, Tooltip, Snackbar, useMediaQuery, useTheme
 } from '@mui/material';
 import {
   Person as PersonIcon, Phone as PhoneIcon,
-  CreditCard as CreditCardIcon, ArrowBack as ArrowBackIcon,
+  //CreditCard as CreditCardIcon,
+   ArrowBack as ArrowBackIcon,
   CheckCircle as CheckCircleIcon, ContentCopy as ContentCopyIcon,
   Payment as PaymentIcon, Verified as VerifiedIcon,
   Star as StarIcon, StarHalf as StarHalfIcon, StarBorder as StarBorderIcon,
@@ -18,7 +19,7 @@ import {
   InfoOutlined as InfoOutlinedIcon
 } from '@mui/icons-material';
 import Carousel from 'react-material-ui-carousel';
-import MuiAlert from '@mui/material/Alert';
+//import MuiAlert from '@mui/material/Alert';
 
 // Sample testimonials
 const testimonials = [

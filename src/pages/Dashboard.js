@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Box, Container, Typography, Button, Card, CardContent, Grid, 
-  Avatar, Badge, Chip, Divider, Paper, Stack, useMediaQuery, Theme
+  Avatar, Chip, Divider, Paper, Stack, useMediaQuery
 } from '@mui/material';
 import { 
   AccountCircle as AccountCircleIcon,
@@ -30,7 +30,7 @@ function Dashboard() {
   
   const [creditScore, setCreditScore] = useState(650);
   const [eligibleAmount, setEligibleAmount] = useState(0);
-  const [activeLoans, setActiveLoans] = useState(0);
+  //const [activeLoans, setActiveLoans] = useState(0);
 
   useEffect(() => {
     // Simulate credit score calculation based on KYC
